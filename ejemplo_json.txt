@@ -1,0 +1,139 @@
+{
+   'took':3,
+   'timed_out':False,
+   '_shards':{
+      'total':1,
+      'successful':1,
+      'failed':0
+   },
+   'hits':{
+      'total':1172,
+      'max_score':7.530062,
+      'hits':[
+         {
+            '_index':'twitter',
+            '_type':'tuits',
+            '_id':'AW29qtVkAkh4qSI6x_DV',
+            '_score':7.530062,
+            '_source':{
+               'is_quote_status':False,
+               'in_reply_to_status_id_str':None,
+               '@timestamp':'2019-10-12T01:52:27.000Z',
+               'reply_count':0,
+               'user':{
+                  'profile_image_url':'http://pbs.twimg.com/profile_images/1063146512992100352/GZgfSpXE_normal.jpg',
+                  'geo_enabled':True,
+                  'default_profile':False,
+                  'profile_background_color':'F7F7F7',
+                  'favourites_count':14918,
+                  'time_zone':None,
+                  'following':None,
+                  'id_str':'80179077',
+                  'description':'A la vida se vino a hacer el ridículo. 🤘🏾 Mi página: http://m.facebook.com/Kapu-213016508…',
+                  'name':'Teresa Mendoza',
+                  'translator_type':'none',
+                  'followers_count':394,
+                  'protected':False,
+                  'friends_count':378,
+                  'is_translator':False,
+                  'profile_image_url_https':'https://pbs.twimg.com/profile_images/1063146512992100352/GZgfSpXE_normal.jpg',
+                  'profile_sidebar_fill_color':'DDEEF6',
+                  'lang':None,
+                  'id':80179077,
+                  'utc_offset':None,
+                  'profile_link_color':'6B510F',
+                  'profile_sidebar_border_color':'FFFFFF',
+                  'default_profile_image':False,
+                  'statuses_count':18318,
+                  'profile_use_background_image':True,
+                  'profile_text_color':'333333',
+                  'notifications':None,
+                  'follow_request_sent':None,
+                  'screen_name':'bienquequieres',
+                  'verified':False,
+                  'location':'Zihuatanejo-Guadalajara',
+                  'listed_count':2,
+                  'created_at':'Tue Oct 06 01:20:16 +0000 2009',
+                  'contributors_enabled':False,
+                  'profile_background_image_url':'http://abs.twimg.com/images/themes/theme1/bg.png',
+                  'profile_background_image_url_https':'https://abs.twimg.com/images/themes/theme1/bg.png',
+                  'profile_banner_url':'https://pbs.twimg.com/profile_banners/80179077/1526965520',
+                  'profile_background_tile':True,
+                  'url':'https://www.instagram.com/kapumendiola'
+               },
+               'coordinates':None,
+               'id_str':'1182836395557044229',
+               'in_reply_to_user_id':None,
+               'favorited':False,
+               'contributors':None,
+               'retweet_count':0,
+               'entities':{
+                  'urls':[
+
+                  ],
+                  'hashtags':[
+
+                  ],
+                  'symbols':[
+
+                  ],
+                  'user_mentions':[
+
+                  ]
+               },
+               'timestamp_ms':'1570845147395',
+               'lang':'es',
+               'id':1182836395557044229,
+               'filter_level':'low',
+               'in_reply_to_screen_name':None,
+               'in_reply_to_user_id_str':None,
+               'truncated':False,
+               'text':'Hola.',
+               'source':'<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
+               'place':{
+                  'country':'México',
+                  'country_code':'MX',
+                  'place_type':'city',
+                  'id':'f6b87aec17cb031d',
+                  'attributes':{
+
+                  },
+                  'url':'https://api.twitter.com/1.1/geo/id/f6b87aec17cb031d.json',
+                  'full_name':'Morelia, Michoacán de Ocampo',
+                  'name':'Morelia',
+                  'bounding_box':{
+                     'coordinates':[
+                        [
+                           [
+                              -101.508271,
+                              19.442976
+                           ],
+                           [
+                              -101.508271,
+                              19.862472
+                           ],
+                           [
+                              -101.043269,
+                              19.862472
+                           ],
+                           [
+                              -101.043269,
+                              19.442976
+                           ]
+                        ]
+                     ],
+                     'type':'Polygon'
+                  }
+               },
+               '@version':'1',
+               'created_at':'Sat Oct 12 01:52:27 +0000 2019',
+               'quote_count':0,
+               'in_reply_to_status_id':None,
+               'favorite_count':0,
+               'retweeted':False,
+               'geo':None
+            }
+         }
+      ]
+   }
+}
